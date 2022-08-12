@@ -4,6 +4,7 @@
     box-sizing: border-box;
     border: 1px solid red;
     font-family: arial;
+    padding: 10px;
 }
 
 header,
@@ -13,19 +14,32 @@ footer {
     background-color: #1f2937;
     color: #f9faf8;
     justify-content: space-around;
+    align-content: center;
+}
+
+.copy {
+    width: 400px;
 }
 
 h1 {
     font-size: 48px;
     font-weight: bolder;
+    
 }
 
 h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+    
 
 }
 
 h3 {
     font-size: 24px;
+    padding: 10px;
+    
 }
 
 .links {
@@ -36,9 +50,25 @@ h3 {
     
 }
 
+.header-link {
+    padding: 10px;
+}
+
 .hero {
+    justify-content: center;
+    padding: 50px;
     
 }
+
+.image {
+    background-color: gray;
+    text-align: center;
+    padding: 50px;
+    
+    
+    
+}
+
 
 button {
     background-color: #3882f6;
@@ -49,8 +79,42 @@ button {
 
 .pic-holder {
     display: flex;
+    justify-content: center;
+    color: gray;
+    padding: 50px;
 }
 
 .call-to-action {
     display: flex;
+}
+
+.pic {
+    width: 220px;
+    padding: 20px;
+    text-align: center;
+}
+
+.testamonial {
+    background-color: #E5E7EB;
+    padding: 100px;
+    justify-content: center;
+    
+}
+
+.quote{
+    color: #1f2937;
+    font-weight: light;
+    font-style: italic;
+    
+    
+    
+}
+
+.signature {
+    text-align: right;
+}
+
+.call-to-action {
+    background-color: #3882f6;
+    color: #f9faf8;
 }
